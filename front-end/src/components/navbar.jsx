@@ -8,7 +8,7 @@ function navbar() {
         <h1>Logo</h1>
       </div>
       <div className="links">
-        <a href="/">Home</a>
+        <a href="#">Home</a>
         <a href="/about">About</a>
         <a href="/services">Services</a>
         <a href="/contact">Contact</a>
