@@ -7,6 +7,7 @@ function home() {
       <input type="text" placeholder='Past the link to shorten it' />
       <button>Shorten</button>
       
+      
     </div>
   )
 }

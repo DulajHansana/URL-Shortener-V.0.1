@@ -12,7 +12,7 @@
 }
 
 .inputcontainer h1 span{
-    color: #61dafb;
+    color: #25cd9d;
 }
 
 .inputcontainer input{
@@ -23,21 +23,22 @@
     text-indent: 1rem;
     border: none;
     outline: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
+    padding: 0 1rem;
    
 }
 
 .inputcontainer input::placeholder{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .inputcontainer button{
     padding: 0 1rem;
     height: 4vh;
     width: 25%;
-    background-color: #61dafb;
+    background-color: #25cd9d;
     color: white;
     font-size: 1.2rem;
     border: none;
@@ -47,4 +48,12 @@
     text-transform: uppercase;
     border: none;
     outline: none;
+}
+.back{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
