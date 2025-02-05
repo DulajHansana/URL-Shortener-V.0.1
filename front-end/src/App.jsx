@@ -10,9 +10,7 @@ function App() {
     <div className='container'>
       <Home />
       <Background />
-      <Linkresult />
-    </div>
-   
+
   );
 }
 
