@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const linkresult = () => {
+const LinkResult = () => {
+  const[shortenlink, setShortenlink] = useState("Hello World");
   return (
     <div>
-      <h1>Hello</h1>
+      <p>{shortenlink}</p>
      
     </div>
   )
 }
 
-export default linkresult
+export default LinkResult
