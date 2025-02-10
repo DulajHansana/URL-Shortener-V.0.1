@@ -79,3 +79,8 @@
   background-color: #25cd9d;
   border: none;
 }
+
+.result button.copied{
+    background-color: #ffffff;
+    color: #25cd9d;
+}
