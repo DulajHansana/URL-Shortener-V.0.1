@@ -8,12 +8,7 @@ const LinkResult = () => {
     <div className='result'>
       <p>{shortenlink}</p>
       <CopyToClipboard text={shortenlink}
-        onCopy={() => setCopied(true)}>
-
-      <button className={copied ? "copied": ""}>Copy to clipboard</button>
-        </CopyToClipboard>
-        
-      
+  
     </div>
   )
 }
