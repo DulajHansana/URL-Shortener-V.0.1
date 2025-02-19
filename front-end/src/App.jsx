@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Home from './component/home';
 import Background from './component/background';
@@ -8,11 +7,12 @@ import LinkResult from './component/linkresult';
 
 
 function App() {
+  const [inputValue, setInputValue] = useState("");
   return (
     <div className='container'>
-      <Home />
+      <Home setInputValue={setInputValue}/>
       <Background />
-      <LinkResult />
+      <LinkResult inputValue={inputValue}/>
     </div>
    
   );
