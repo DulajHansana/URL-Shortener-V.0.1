@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "copy-to-clipboard": "^3.3.3",
     "cra-template": "1.2.0",
     "front-end": "file:",
+    "i": "^0.3.7",
+    "npm": "^11.1.0",
     "react": "^19.0.0",
+    "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
