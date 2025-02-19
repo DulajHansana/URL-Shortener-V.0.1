@@ -1,21 +1,7 @@
-import React, { useState } from 'react'
-import {CopyToClipboard} from 'react-copy-to-clipboard';
+import React from 'react'
 
-const LinkResult = () => {
-  const[shortenlink, setShortenlink] = useState("Hello World");
-  const[copied, setCopied] = useState(false);
+export const linkresult = () => {
   return (
-    <div className='result'>
-      <p>{shortenlink}</p>
-      <CopyToClipboard text={shortenlink}
-        onCopy={() => setCopied(true)}>
-
-      <button className={copied ? "copied": ""}>Copy to clipboard</button>
-        </CopyToClipboard>
-        
-      
-    </div>
+    <div>linkresult</div>
   )
 }
-
-export default LinkResult
